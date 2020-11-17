@@ -1,27 +1,76 @@
+:root {
+    --blue: #2A2D6A;
+    --dark: #111224;
+    --violet: #4d27bd;
+}
+
 body {
-    font: 20px Arial, sans-serif;
+    font: 20px 'Titillium Web', sans-serif;
 }
 
+/* Nav */
 .navbar{
-    background-color: #298A08;
+    background-color: #4d27bd;
+    /* position: fixed;
+    width: 100%;
+    z-index: 2; */
 }
 
-/* Sessões */
+.link-button{
+    font-size: 22px;
+    color: #FFF !important;
+}
+
+.link-button:hover{
+    color: rgb(221, 217, 217) !important;
+}
+
+/* SESSÃO: QuemSomos */
+section .quem-somos{
+    height: 100vh;
+    background-color: #242424;
+}
+
 .quem-somos{
-    background-color: #8181F7;
     color: #FFF;
+    background-image: url('img/line-violet1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+/* ---------------------------------------------- */
+
+/* SESSÃO: Parceiros */
+section .parceiros{
+    height: 100vh;
+}
+.parceiros{
+    background-color: #1CC283;
+    background-image: url('img/line-dark-grey.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+/* ---------------------------------------------- */
+
+/* SESSÃO: Serviços */
+section .servicos{
+    height: 100vh;
 }
 
-.parceiros{
-    background-color: #58FAFA;
+.servicos{
+    background-color: #6532FF;
+    background-image: url('img/line-green1.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
+/* ---------------------------------------------- */
 
 .margin{
     padding-bottom: 50px;
     padding-top: 10px;
 }
 
+/* Footer */
 .bg-footer{
-    background-color: gray;
+    background-color: var(--dark);
     color: #FFF;
 }
