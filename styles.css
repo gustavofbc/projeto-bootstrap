@@ -9,6 +9,20 @@ body {
 }
 
 /* Nav */
+#conteudoNavbar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end !important;
+}
+
+@media (max-width: 990px){
+    #conteudoNavbar{
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+    }
+}
+
 .navbar{
     background-color: #4d27bd;
     /* position: fixed;
@@ -37,6 +51,12 @@ section .quem-somos{
     background-repeat: no-repeat;
     background-position: right;
 }
+
+.messageSlogan{
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.40);
+}
+
 /* ---------------------------------------------- */
 
 /* SESSÃO: Parceiros */
