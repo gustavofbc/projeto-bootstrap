@@ -10,17 +10,7 @@ body {
 
 /* Nav */
 #conteudoNavbar{
-    display: flex;
-    align-items: center;
     justify-content: flex-end !important;
-}
-
-@media (max-width: 990px){
-    #conteudoNavbar{
-        display: flex;
-        align-items: center;
-        justify-content: center !important;
-    }
 }
 
 .navbar{
@@ -43,6 +33,7 @@ body {
 section .quem-somos{
     height: 100vh;
     background-color: #242424;
+    box-sizing: border-box;
 }
 
 .quem-somos{
@@ -55,6 +46,17 @@ section .quem-somos{
 .messageSlogan{
     font-style: italic;
     color: rgba(0, 0, 0, 0.40);
+}
+
+@media(max-width: 990px){
+    .img-quemSomos{
+        width: 45%;
+        height: 110%;
+    }
+
+    .message{
+        padding: 20px 0px;
+    }
 }
 
 /* ---------------------------------------------- */
